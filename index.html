@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Youtube - Video page clone</title>
+    <!-- Css links -->
+    <link rel="stylesheet" href="style/general.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/video.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <!-- Header section start -->
+    <header class="header">
+        <div class="left-section">
+            <img src="img/icons/hamburger-menu.svg" class="menu-logo" alt="">
+            <img src="img/icons/youtube-logo.svg" class="youtube-logo" alt="">
+        </div>
+        <div class="middle-section">
+            <input class="search-bar" type="text" placeholder="Search">
+            <button class="search-button">
+                <img class="search-icon" src="img/icons/search.svg">
+                <div class="tooltip">Search</div>
+            </button>
+
+            <button class="voice-search-button">
+                <img class="voice-search-icon" src="img/icons/voice-search-icon.svg">
+                <div class="tooltip">Search with your voice</div>
+            </button>
+        </div>
+        <div class="right-section">
+            <div class="upload-icon-container">
+                <img class="upload-icon" src="img/icons/upload.svg">
+                <div class="tooltip">Create</div>
+            </div>
+
+            <img class="notification-icon" src="img/icons/notifications.svg">
+            <img class="current-user-picture" src="img/channel-pictures/channel-1.jpeg">
+        </div>
+    </header>
+    <!-- Header section End -->
+
+    <!-- Main section  start-->
+
+    <!-- Playing main section start-->
+    <section class="main">
+        <div class="playing-video">
+            <div class="playing-now">
+                <div class="image">
+                    <img src="/img/thumbnails/thumbnail-1.webp" alt="" class="playing-video-preview">
+                    <button class="notification-button">
+                        <img class="video-notification-icon" src="/img/icons/notifications.svg">
+                        <div class="tooltip">Get video information</div>
+                    </button>
+                    <div class="bottom-video-preview">
+                        <div class="playing-length"><div class="playing-length-one"><div class="playing-length-two"></div></div></div>
+                        <div class="bottom-video-icons">
+                            <div class="left-section">
+                                <div class="upload-icon-container">
+                                    <img src="/img/icons/play-svgrepo-com.svg" class="video-pause-icon" alt="">
+                                    <div class="tooltip">Play</div>
+                                </div>
+                                <div class="upload-icon-container">
+                                    <img src="/img/icons/next-svgrepo-com.svg" class="video-next-icon" alt="">
+                                    <div class="tooltip">Next</div>
+                                </div>
+                                <div class="upload-icon-container">
+                                    <img src="/img/icons/volume-max-svgrepo-com.svg" class="video-volume-icon" alt="">
+                                    <div class="tooltip">Volume</div>
+                                </div>
+                                <div class="time-frame">
+                                     0:05/11:22
+                                </div>
+                               
+                            </div>
+                            <div class="right-section">
+                                <div class="upload-icon-container">
+                                    <img src="/img/icons/toggle-02-right-svgrepo-com.svg" class="auto-next-icon" alt="">
+                                    <div class="tooltip">auto next</div>
+                                </div>
+                                <div class="upload-icon-container">
+                                    <img src="/img/icons/captions-bubble-svgrepo-com.svg" class="caption-icon" alt="">
+                                    <div class="tooltip">Captions</div>
+                                </div>
+                                <div class="upload-icon-container">
+                                    <img src="/img/icons/setting-5-svgrepo-com.svg" class="setting-icon" alt="">
+                                    <div class="tooltip">Settings</div>
+                                </div>
+                                <div class="upload-icon-container">
+                                    <img src="/img/icons/one-hand-com.svg" class="minimize-icon" alt="">
+                                    <div class="tooltip">minimize</div>
+                                </div>
+                                <div class="upload-icon-container">
+                                    <img src="/img/icons/half-screen-com.svg" class="half-screen-icon" alt="">
+                                    <div class="tooltip">half screen</div>
+                                </div>
+                                <div class="upload-icon-container">
+                                    <img src="/img//icons/full-screen-904-svgrepo-com.svg" class="full-screen-icon" alt="">
+                                <div class="tooltip">full screen</div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="video-info">
+                    <div class="video-title">If you talk to yourself like this, you will have anything you want | Inner
+                        Dialogue creates Reality </div>
+                    <div class="profile-info">
+                        <div class="channel">
+                            <img src="/img/channel-pictures/channel-2.jpeg" alt="" class="channel-profile-picture">
+                        </div>
+                        <div class="youtube-info">
+                            <div class="channel-name">Soul Alchemy</div>
+                            <div class="channel-subscriber">76.2k subscribers</div>
+                        </div>
+                        <div class="btn">
+                            <button class="subscribe-btn">Subscribe</button>
+                            <div class="interact-btn">
+                                <div class="likee">
+                                    <button class="like-number">31k</button>
+                                    <button class="unlike">
+                                        <img src="/img/icons/unlike-svgrepo-com.svg" alt="" class="unlike-icon">
+                                    </button>
+                                </div>
+                                <div class="more">
+                                    <button class="share-btn">
+                                        <div>
+                                            <img src="/img/icons/share-2-svgrepo-com.svg" alt="" class="share-icon">
+                                        </div>
+                                        <div class="share-text">Share</div>
+                                    </button>
+                                    <button class="more-action"> &centerdot;&centerdot;&centerdot; </button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!-- Playing main section End-->
+
+    <!-- video queue main section start-->
+        <div class="other-videos">
+            <div class="container">
+                <div class="waiting-video">
+                    <img src="/img/thumbnails/thumbnail-2.webp" class="waiting-video-image" alt="">
+                    <div class="video-time">3:33:33</div>
+                </div>
+                <div class="waiting-video-info">
+                    <div class="waiting-video-title">
+                        New viral comedy | Try not to laugh Joy & laugh Release...
+                    </div>
+                    <div class="waiting-video-username">
+                        Inner Lotus Comedy <span class="tick">✔</span>
+                    </div>
+                    <div class="waiting-video-rating">
+                        3.8M views <strong>&centerdot;</strong> 3 months Ago
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="waiting-video">
+                    <img src="/img/thumbnails/thumbnail-3.webp" class="waiting-video-image" alt="">
+                    <div class="video-time">1:00:00</div>
+                </div>
+                <div class="waiting-video-info">
+                    <div class="waiting-video-title">
+                        New viral comedy | Try not to laugh Joy & laugh Release...
+                    </div>
+                    <div class="waiting-video-username">
+                        Inner Lotus Comedy <span class="tick">✔</span>
+                    </div>
+                    <div class="waiting-video-rating">
+                        3.8M views <strong>&centerdot;</strong> 4 months Ago
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="waiting-video">
+                    <img src="/img/thumbnails/thumbnail-4.webp" class="waiting-video-image" alt="">
+                    <div class="video-time">11:15</div>
+                </div>
+                <div class="waiting-video-info">
+                    <div class="waiting-video-title">
+                        New viral comedy | Try not to laugh Joy & laugh Release...
+                    </div>
+                    <div class="waiting-video-username">
+                        Inner Lotus Comedy <span class="tick">✔</span>
+                    </div>
+                    <div class="waiting-video-rating">
+                        3.8M views <strong>&centerdot;</strong> 2 months Ago
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="waiting-video">
+                    <img src="/img/thumbnails/thumbnail-5.webp" class="waiting-video-image" alt="">
+                    <div class="video-time">26:00</div>
+                </div>
+                <div class="waiting-video-info">
+                    <div class="waiting-video-title">
+                        New viral comedy | Try not to laugh Joy & laugh Release...
+                    </div>
+                    <div class="waiting-video-username">
+                        Inner Lotus Comedy <span class="tick">✔</span>
+                    </div>
+                    <div class="waiting-video-rating">
+                        3.8M views <strong>&centerdot;</strong> 1 months Ago
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="waiting-video">
+                    <img src="/img/thumbnails/thumbnail-6.webp" class="waiting-video-image" alt="">
+                    <div class="video-time">2:30:00</div>
+                </div>
+                <div class="waiting-video-info">
+                    <div class="waiting-video-title">
+                        New viral comedy | Try not to laugh Joy & laugh Release...
+                    </div>
+                    <div class="waiting-video-username">
+                        Inner Lotus Comedy <span class="tick">✔</span>
+                    </div>
+                    <div class="waiting-video-rating">
+                        3.8M views <strong>&centerdot;</strong> 2 years Ago
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="waiting-video">
+                    <img src="/img/thumbnails/thumbnail-1.webp" class="waiting-video-image" alt="">
+                    <div class="video-time">50:00</div>
+                </div>
+                <div class="waiting-video-info">
+                    <div class="waiting-video-title">
+                        New viral comedy | Try not to laugh Joy & laugh Release...
+                    </div>
+                    <div class="waiting-video-username">
+                        Inner Lotus Comedy <span class="tick">✔</span>
+                    </div>
+                    <div class="waiting-video-rating">
+                        3.8M views <strong>&centerdot;</strong> 3 months Ago
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    <!-- video queue main section End-->
+
+    </section>
+</body>
+
+</html>
